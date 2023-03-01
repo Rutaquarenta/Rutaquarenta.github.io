@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae Marcelo Mendiburu</title>
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    <meta name="viewport" content="device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="icon" type="image/png" href="img/curriculum.png">
+</head>
+<body>
+
+    <script src="JS/index.js"></script>
+    <aside>
+        <div>
+            <img src="img/imagendeperfil1.jpg" class="fotodeperfil" alt="Foto de perfil">
+        </div>
+        
+    <div class="datosp">
+            <h3> Datos Personales </h3>
+            <p>•	Estado civil: Soltero</p>
+            <p>•	Nacionalidad: Argentino</p>
+            <p>•	Edad: 40 años</p>
+            <p>•	Fecha y lugar de nacimiento: 7 de agosto de 1982, Resistencia, Chaco, Argentina</p>
+            <p>•	Documento Nº 29.554.747</p>
+            <p>•	Dirección actual: Cipolletti, Río Negro</p>
+            <p>•	Cel: 299 5332138</p>
+            <p>•	E-mail: marce34345@gmail.com</p>
+    
+    </div>
+        
+    </aside>
+
+    <main>
+        <div>
+            <h1 class="titulo"> CURRICULUM VITAE 2023</h1>
+            <h1 class="titulo"> DE MENDIBURU MARCELO ADRIAN</h1>
+            <h3 class="subtitulo"><b>Introducción a la Programación JavaScript - HTML - CSS </b></h3>
+            </div>
+         <!-- la <b> es para poner las palabras en negrita -->
+     
+        </div>
+    <div class="tarjeta">
+        <div class="carnet">
+            <img src="img/datospersonales.jpg"alt="Notbook trabajando en casa" height="400px w" width="500px"/>
+            <h4>Estudios</h4>
+            <p>•	Titulo Técnico Superior en Administración de Empresas Públicas – IES CENT N° 51 – Año 2016. Reg. Prov. Nº 394.820.</p>
+            <p>•	Titulo Profesor en Matemática para EGB 3 y Polimodal – Inst. San Fernando Rey – Resistencia Chaco – Año 2003 – Reg. Prov. Nº 216.568.</p>
+            <p>•	Titulo Especialista Docente de Nivel Superior en Enseñanza de la Matemática en la Educación Secundaria – Programa Nuestra Escuela - Año 2018.</p>
+           
+        </div>
+
+        <div class="carnet">
+            <img src="img/Estudioycursos.jpg"alt="Varias pantallas en una mesa de trabajo" height="400px w" width="500px"/>
+            <h4>Cursos realizados</h4>
+           
+            <p>•	Titulo Diplomatura Superior en Pedagogía y Educación Social -  Inst. de Educación San Fernando Rey – Año 2016 . Reg. Prov. Nº 394.003.</p>
+            <p>•	Titulo Especialización Docente de Nivel Superior en Educación y TIC -  Inst. Superior Rodolfo Walsh – Año 2016 . Reg. Prov. Nº DTE 451.</p>
+            <p>•	Titulo Especialista Docente de Nivel Superior en Estrategias innovadoras. PNL aplicada a la Escuela – Programa Nuestra Escuela – M.E.N.- Año 2018.</p>
+          
+        </div>
+
+
+        <div class="carnet">
+            <img src="img/experiencialaboral.jpg"alt="Persona trabajando con muchas App en una mesa de trabajo" height="400px w" width="500px"/>
+            <h4>Experiencia Laboral</h4>
+            <p>•	Capacitador en el área de Matemática, Curso de Gestión escolar Proyecto FOPIIE  año 2009 dictado en la provincia de Misiones zona 07 y  08 (Ciudades de Posadas y Apóstoles respectivamente).</p>
+            <p>•	Capacitador docente para Docentes sin Cargo año 2017 – Curso: Administración y Gestión en la Escuela Pública. MECCyT</p>
+            <p>•	Capacitador docente Año 2018 – Curso: Administración del Personal Docente en la Escuela de Gestión Pública. MECCyT</p>
+          
+           
+        </div>
+
+        <div class="carnet">
+            <img src="img/exito1.jpg"alt="Notbook trabajando en casa" height="400px w" width="500px"/>
+            <h4> Formación Profesional Virtual</h4>
+            <p>• Tutor vitual del Programa "Plan FinEs" Años 2021 y 2022 - Destinado a estudiantes de la provincia de Río Negro para terminar el secundario</p>
+            <p>• Tutor vitual del Programa "FinEsTec" Año 2020 - Destinado a estudiantes de escuelas técnicas para terminar el secundario</p>
+                       <p>• Tutor vitual del Programa "InFoD – Curso: Aprender con otros 2019" destinado a docentes de todo el pais</p>
+            
+        </div>
+
+        <div class="carnet">
+            <img src="img/exito2.jpg"alt="Varias pantallas en una mesa de trabajo" height="400px w" width="500px"/>
+            <h4> Formulario para enviar </h4>
+            <p>Completa el siguiente formulario para validar tus datos</p>
+           
+            <button id="botonf" onclick="mostrarf();">Formulario</button>
+         
+            <div id="formulario1">
+                <legend>Datos del usuario</legend>
+                    <form action="" method="get">
+                    <h5 id="canva">Normbre:</h5>
+                    <input type="text" id="Name" name="Name" required placeholder="Ingrese su nombre"/>
+
+                    <h5 id="canva">Correo:</h5>
+                    <input type="email" id="email" name="pass" required placeholder="Ingrese su e-mail"/>
+
+                    <h5 id="canva">Contraseña:</h5>
+                    <input type="password" id="pass" name="pass" required placeholder="Contraseña"/>
+
+                    <h5 id="canva">Fecha de nacimiento:</h5>
+                    <input type="date" id="birthday" name="birthday" required placeholder="dd/mm/aaaa"/>
+                    
+                    <input type="submit" value="Enviar formulario">
+                    </form>       
+               
+                <button id="boton" onclick="ocultarf();">Ocultar Formulario</button>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="carnet">
+            <img src="img/videomar.jpg"alt="Video de 1 minuto con presentacion" height="400px w" width="500px"/>
+            <h4> Video Presentación</h4>
+            <p> En el siguiente espacio podrás observar una presentacion personal</p>
+           
+            <button id="boton" onclick="mostrar();">Ver Video</button>
+         
+            <div id="videop1">
+            
+                <video controls width="320" height="240">
+                <source src="img/videop.mp4" type="video/mp4">
+                </video>
+                <button id="boton" onclick="ocultar();">Ocultar Video</button>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    </main>
+
+    
+</body>
+</html>

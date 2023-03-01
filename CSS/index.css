@@ -1,0 +1,164 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    display: flex;
+    min-height: 230vh;
+    /* main-heig es para el largo de la banda azul y blanca*/
+}
+
+aside{
+    background: #1a3151;
+    width: 35%;
+    color: #ffffff;
+}
+
+main{
+    background: #eee;
+    color: #333;
+    width: 65%;
+}
+
+
+.fotodeperfil{
+    width:50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 7px solid white;
+    position: relative;
+    margin-left: 50px;
+    top: 40px;
+  }
+    /* position relative es para ubicar los elementos donde necesitemos*/
+
+.titulo {
+        text-align: center;
+        font-size: 40px;
+        color: black;
+        margin-top: 100px;
+        font-weight: 100;
+    
+     }
+
+     .subtitulo {
+       text-align: center;
+       font-size: 20px;
+       color: black;
+       margin-top: 0px;
+       font-weight: 100;
+    }
+
+.tarjeta {
+        width: 100%;
+        max-width: 1200px;
+        height: 530px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    
+     }
+
+.tarjeta .carnet {
+        width: 330px;
+        height: 740px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        border: 5px solid #1a3151;
+     }
+
+.tarjeta .carnet:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);    
+     }
+    
+.tarjeta .carnet img{
+        width: 330px;
+        height: 220px;
+     }
+
+.tarjeta .carnet h1{
+        font-weight: 600;
+     }
+    
+     .tarjeta .carnet p{
+        padding: 0 1rem;
+        font-size: 16px;
+        font-weight: 300;
+     }
+    
+     .tarjeta .carnet a{
+        font-weight: 600;
+        text-decoration: none;
+        color: chocolate;
+     }
+    
+     #customers {
+       font-family: Arial, Helvetica, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+     }
+     
+     #customers td, #customers th {
+       border: 1px solid #ddd;
+       padding: 8px;
+     }
+     
+     #customers tr:nth-child(even){background-color: #f2f2f2;}
+     
+     #customers tr:hover {background-color: #ddd;}
+     
+     #customers th {
+       padding-top: 32px;
+       padding-bottom: 52px;
+       text-align: left;
+       background-color: #04AA6D;
+       color: white;
+     }
+
+     .datosp {
+    
+      font-family: 'Times New Roman', Times, serif;
+      display: block;
+      margin-left: 50px;
+      margin-top: 70px;
+      font-weight: lighter;
+   }
+
+   #videop1{
+      display: none;
+      padding-top: 20px;
+   }
+   
+   #formulario1{
+      display: none;
+      padding-top: 20px;
+      color: rgb(48, 159, 181);
+      font-family: 'Lucida Sans';
+      font-size: 20px;
+      
+   }
+   
+.subtitulo{
+   color: rgb(48, 159, 181);
+}
+
+.titulo{
+   color: rgb(27, 27, 51);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 50px;
+ }
+
+ #canva{
+   margin: 3px;
+   padding-left: 15px;
+   border: 1px;
+   text-align: left;
+
+ }
